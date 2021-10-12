@@ -1,0 +1,144 @@
+@media(max-width:1199px){
+    header h6 {
+        font-size: 20px;
+    }
+    header h1 {
+        font-size: 85px;
+    }
+    header h2 {
+        font-size: 50px;
+        text-shadow: 2px 4px #fee8bc;
+    }
+}
+@media(max-width:991px){
+    .baner {
+        padding-top: 12vh;
+    }
+    header h6 {
+        font-size: 18px;
+    }
+    header h1 {
+        font-size: 75px;
+    }
+    header h2 {
+        font-size: 40px;
+    }
+    header .price-bg {
+        padding: 7px;
+        bottom: 0%;
+        right: 48%;
+        transform: translate(-48%, -1%);
+    }
+    header .price {
+        padding: 14px;
+    }
+    header .price h1 {
+        font-size: 16px;
+    }
+    header .price h1 span {
+        font-size: 32px;
+    }
+    header .price h2 {
+        font-size: 14px;
+    }
+    .features_section .content h5 {
+        font-size: 18px;
+    }
+    .features_section .content h3 {
+        font-size: 25px;
+    }
+    .heading h4 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .heading h1 {
+        font-size: 36px;
+    }
+    .shop_section h3 {
+        font-size: 26px;
+    }
+    .shop_section p {
+        font-size: 14px;
+    }
+    .navbar-nav {
+        margin-top: 20px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 22px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link:hover {
+        letter-spacing: 5px;
+    }
+    .header-top {
+        display: none;
+    }
+}
+@media(max-width:767px){
+    header .baner-img {
+        position: relative;
+        width: 75%;
+        margin: auto;
+    }
+    .baner-content{
+        text-align: center;
+
+    }
+    .baner {
+        padding-top: 3vh;
+    }
+    .features_section .feature-one {
+        margin-bottom: 20px;
+    }
+    .form_section .mg {
+        padding-top: 0;
+    }
+    footer .bg {
+        padding-bottom: 10px;
+    }
+    .shop_section {
+        margin-top: 0 !important;
+    }
+    footer {
+        margin-bottom: 0;
+    }
+}
+@media(max-width:375px){
+    .navbar-light .navbar-brand {
+        width: 70%;
+    }
+    .navbar-light .navbar-toggler {
+        width: 15%;
+        padding: 0;
+    }
+    header h6 {
+        font-size: 16px;
+    }
+    header h1 {
+        font-size: 50px;
+    }
+    header h2 {
+        font-size: 35px;
+    }
+    header {
+        min-height: 80vh;
+    }
+    .form_section h4 {
+        font-size: 22px;
+    }
+    .form_section h1 {
+        font-size: 26px;
+    }
+    .form_section form input {
+        padding: 12px 10px;
+    }
+    .form_section form input[type="submit"] {
+        font-size: 22px;
+        padding: 13px 0;
+    }
+    footer ul li {
+        font-size: 18px;
+    }
+}
+
